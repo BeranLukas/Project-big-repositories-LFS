@@ -2,9 +2,9 @@
 
 Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
-1. LFS - Large File Storage
+1. LFS - Large File Storage - Martin
 
-2. Shallow clones
+2. Shallow clones - Martin
 
 3. Cloning only a single branch
 
