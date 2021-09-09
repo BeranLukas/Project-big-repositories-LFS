@@ -2,13 +2,22 @@
 
 Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
-LFS - Large File Storage
-Shallow clones
-Cloning only a single branch
-Handling repositories with large binary files
-Subtrees
-Submodules
+1. LFS - Large File Storage
 
-Possible source: [Chapter 9](https://www.packtpub.com/product/mastering-git/9781783553754)
+2. Shallow clones
 
-Not sure if all the things are relevant.
+3. Cloning only a single branch
+
+4. Handling repositories with large binary files
+
+5. Subtrees
+
+6. Submodules
+
+Possible sources:
+
+ [Mestering Git, Chapter 9](https://www.packtpub.com/product/mastering-git/9781783553754)
+
+ [GitHub, Git-LFS](https://github.com/git-lfs/git-lfs/wiki)
+
+Not sure if all of the things are relevant.
