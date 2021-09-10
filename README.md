@@ -10,9 +10,9 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
 4. Handling repositories with large binary files
 
-5. Subtrees
+5. Subtrees - Lukas
 
-6. Submodules
+6. Submodules - Lukas
 
 Possible sources:
 
