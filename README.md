@@ -7,7 +7,7 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 - Handling repositories with huge binary assets
 
 2. LFS
-- What is GIT LFS
+- [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#what-is-git-lfs)
 - Installation
 - Creating a new Git LFS repository
 - Cloning an existing Git LFS repository
