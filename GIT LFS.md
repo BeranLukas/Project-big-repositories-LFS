@@ -25,8 +25,14 @@ In progress ...
 
 # How to clone a Git LFS repository
 
-If the Git LFS is installed, we can use the well-known command `git clone`. If the Git LFS is installed, we can use the well-known command. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any Git LFS file is required to complete the process, it will be downloaded.
+If the Git LFS is installed, we can use the well-known command `git clone`. If the Git LFS is installed, we can use the well-known command. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded.
 
-EXAMPLE!
+**EXAMPLE!**
 
-There is also the command `git lfs clone`.
+There is also the command `git lfs clone`. It delivers much better performance for a large number of LFS files. In this case, Git waits until the whole process is over. Followingly, all required files are download altogether at one point in time. This approach significantly reduces the number of HTTP requests.
+
+**EXAMPLE!**
+
+# How to pull up and check out
+
+- including also speeding
