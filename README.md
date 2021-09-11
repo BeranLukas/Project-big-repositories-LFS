@@ -25,7 +25,7 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 - Locking Git LFS files
 - How Git LFS works
 
-Possible sources:
+Sources:
 
  [Mestering Git, Chapter 9](https://www.packtpub.com/product/mastering-git/9781783553754)
 
