@@ -7,15 +7,17 @@ As a result, a git extension, Git LFS (Large File Storage), was created by Atlas
 In order to work with Git LFS, proper hosting (e.g., Bitbucket Cloud, etc.) is required. If we use the repository, we will need Git LFS command-line client or some GUI client (e.g., Sourcetree).
 
 
-# Instalation
+# Installation
 
 Firstly, we download the git extension. There are three ways how to do it.
 1. Download it via a package manager (`brew install git-lfs`, `port install git-lfs`, etc.)
 2. Download it from [the project website](https://git-lfs.github.com/).
 3. Download a free Git GUI client that includes Git LFS, such as [Sourcetree](https://www.sourcetreeapp.com/).
 
-Then, install the Git command line extension.
-`git lfs install`
+Then, install the Git command line extension: `git lfs install`
 
 
-#
+# How to create a new Git LFS repository
+
+
+# How to clone a Git LFS repository
