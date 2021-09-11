@@ -8,7 +8,7 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
 2. LFS
 - [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#what-is-git-lfs)
-- Installation
+- [Installation](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#instalation)
 - Creating a new Git LFS repository
 - Cloning an existing Git LFS repository
 - Speeding up clones
