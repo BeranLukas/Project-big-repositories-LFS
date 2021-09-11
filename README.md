@@ -30,9 +30,9 @@ Possible sources:
 
  [GitHub, Git-LFS](https://github.com/git-lfs/git-lfs/wiki)
 
-    https://www.atlassian.com/git/tutorials/big-repositories
+ [Atlassian, Big repositories](https://www.atlassian.com/git/tutorials/big-repositories)
 
-    https://www.atlassian.com/git/tutorials/git-lfs
+ [Atlassian, Git-LFS](https://www.atlassian.com/git/tutorials/git-lfs)
 
 
 Not sure if all of the things are relevant.
