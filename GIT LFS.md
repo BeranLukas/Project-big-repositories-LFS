@@ -41,3 +41,38 @@ If you want to associate just some of the specific files in the directory, for e
 To stop tracking a specific pattern with Git LFS, use the `git lfs untrack` command. For example, to stop tracking the *.jpg* files, use `git lfs untrack "*.jpg"`.
 
 # Committing and pushing
+
+As usual, all of the changes have to be commited. Commiting Git LFS files follows the same procedure as normal. If there are commited changes to the files tracked by Git LFS, there is some additional output from *git push* as the files are uploaded to the server. As Git, Git LFS is content addressable, in other words, it is stored against a SHA-256 hash. It is, therefore, safe to re-attempt transferring Git LFS files to the server in case it, for some reason, fails.
+
+# Moving a Git LFS repository between hosts
+
+Migrating Git LFS repositories from one host to another, it is possible to use the `gift lfs fetch` and `git lfs push` commands with the specification of the *--all* option .
+
+Example of changing the provider for Git LFS repositories from *GitLab* to *GitHub*:
+ - `git lfs fetch --all gitlab`
+ - `git push -- mirror github`
+ - `git lfs push --all github`
+
+# Fetching estra Git LFS history
+
+
+
+# Deleting local Git LFS files
+
+
+
+# Deleting remote Git LFS files from the server
+
+
+
+# Finding paths or commits that reference a Git LFS object
+
+
+
+# Including/excluding Git LFS files
+
+
+
+# Locking Git LFS files
+
+
