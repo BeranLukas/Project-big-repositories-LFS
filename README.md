@@ -7,11 +7,11 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 - Handling repositories with huge binary assets
 
 2. LFS
-- [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#what-is-git-lfs)
-- [Installation](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#instalation)
-- [How to create a new Git LFS repository](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#how-to-create-a-new-git-lfs-repository)
-- [How to clone a Git LFS repository](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#how-to-clone-a-git-lfs-repository)
-- [How to pull up and check out](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/dev/GIT%20LFS.md#how-to-pull-up-and-check-oout)
+- [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#what-is-git-lfs)
+- [Installation](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#instalation)
+- [How to create a new Git LFS repository](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#how-to-create-a-new-git-lfs-repository)
+- [How to clone a Git LFS repository](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#how-to-clone-a-git-lfs-repository)
+- [How to pull up and check out](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#how-to-pull-up-and-check-oout)
 - Tracking files with Git LFS
 - Committing and pushing
 - Moving a Git LFS repository between hosts
