@@ -8,7 +8,6 @@ As a result, a git extension, Git LFS (Large File Storage), was created by Atlas
 
 In order to work with Git LFS, proper hosting (e.g., Bitbucket Cloud, etc.) is required. If we use the repository, we will need Git LFS command-line client or some GUI client (e.g., Sourcetree).
 
-
 # Installation
 
 Firstly, we download the git extension. There are three ways how to do it.
@@ -19,13 +18,9 @@ Firstly, we download the git extension. There are three ways how to do it.
 Then, install the Git command line extension: `git lfs install`
 
 
-# How to create a new Git LFS repository
-
-In progress ...
-
 # How to clone a Git LFS repository
 
-If the Git LFS is installed, we can use the well-known command `git clone`. If the Git LFS is installed, we can use the well-known command. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded.
+If the Git LFS is installed, we can use the well-known command `git clone`. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded.
 
 **EXAMPLE!**
 
@@ -35,4 +30,7 @@ There is also the command `git lfs clone`. It delivers much better performance f
 
 # How to pull up and check out
 
-- including also speeding
+The same way as we used the cloning, we can also use the pull from Git LFS repository, using the `git pull` command (there is no need to use any explicit command to retrieve Git LFS files). It will download all of the needed Git LFS files as a part of the automatic checkout process when the pull completes. In case of the failure of the checkout, missing Git LFS content can be downloaded by `git lfs pull`.
+
+# Tracking files with Git LFS
+
