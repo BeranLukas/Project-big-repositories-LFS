@@ -53,9 +53,11 @@ Example of changing the provider for Git LFS repositories from *GitLab* to *GitH
  - `git push -- mirror github`
  - `git lfs push --all github`
 
-# Fetching estra Git LFS history
+# Fetching extra Git LFS history
 
+Command `git lfs fetch --recent` downloads extra content, other than the files needed for commits that you already checkout locally, for other modified branches. This is especially helpful if you are going to be out of the internet connection. Without any configuration, branch or tag containing a commit that is newer than seven days is cosidered as recent. Change of the recent days can be done by setting the property `lfs.fetchrecentrefsdays`. For example, if you want the history of the last 14 days, command `git config lfs.fetchrecentrefdays 14` will do exactly that.
 
+Also content for the commit at the tip of a recent branch or a tag will be downloaded, unless you specify the `lfs.fetchrecentcommitsdays` property. Use `git config lfs.fetchrecentcommitsdays 2` to fetch the commits newer than two days. It can be very useful but be cautious with using it as it can result in a massive amount of data being downloaded.
 
 # Deleting local Git LFS files
 
