@@ -67,7 +67,14 @@ To locally delete LFS files, we can use a command `git lfs prune`. Thanks to thi
 - a recent commit (= created in the last ten days)
 
 We can modify the command to retain the content for an extended period (e.g., 14 days).
+
         git config lfs.pruneoffsetdays 14
+
+Old files are not deleted automatically. Therefore, it is recommended to regularly prune GIT LFS content in order to reduce the size of the local repository.
+
+We can further modify the command to check whether a copy of your Git LFS objects is remotely saved before they are deleted. This option makes the whole process significantly slower, but if the deleted Git LFS objects are on the remote server, they are recoverable whenever we want.
+
+        git lfs prune --verify-remote
 
 # Deleting remote Git LFS files from the server
 
