@@ -6,7 +6,7 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 - Handling repositories with a very long history
 - Handling repositories with huge binary assets
 
-2. LFS
+2. [LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md)
 - [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#what-is-git-lfs)
 - [Installation](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#instalation)
 - [How to create a new Git LFS repository](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#how-to-create-a-new-git-lfs-repository)
