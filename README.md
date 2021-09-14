@@ -4,7 +4,11 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
 1. Big repositories
 - Handling repositories with a very long history
+     * Git shallow clone
+     * Git filter branch
 - Handling repositories with huge binary assets
+     * Git sparse-checkout
+     * Submodules
 
 2. [LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md)
 - [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#what-is-git-lfs)
