@@ -21,8 +21,9 @@ Then, install the Git command line extension: `git lfs install`
 # How to clone a Git LFS repository
 
 If the Git LFS is installed, we can use the well-known command `git clone`. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded. For instance, to upload a very large, we could similar commands as follows:
-    git clone git@gitlab.example.com:group/project.git
-    git lfs install                       # the Git LFS project is initialized
+
+        git clone git@gitlab.example.com:group/repository.git
+        git lfs install                       # the Git LFS repository is initialized
 
 There is also the command `git lfs clone`. It delivers much better performance for a large number of LFS files. In this case, Git waits until the whole process is over. Followingly, all required files are download altogether at one point in time. This approach significantly reduces the number of HTTP requests.
 
@@ -60,11 +61,17 @@ Also content for the commit at the tip of a recent branch or a tag will be downl
 
 # Deleting local Git LFS files
 
+To locally delete LFS files, we can use a command `git lfs prune`. Thanks to this command, any local files that do not meet at least one of the following conditions will be deleted:
+- the currently checked out commit
+- a commit that has not yet been pushed from the local Git LFS cache 
+- a recent commit (= created in the last ten days)
 
+We can modify the command to retain the content for an extended period (e.g., 14 days).
+        git config lfs.pruneoffsetdays 14
 
 # Deleting remote Git LFS files from the server
 
-
+We cannot delete LFS files from the server using the command `git lfs prune`. There is no general way how to do it. We have to follow the instructions of our hosting provider.
 
 # Finding paths or commits that reference a Git LFS object
 
