@@ -82,12 +82,16 @@ We cannot delete LFS files from the server using the command `git lfs prune`. Th
 
 # Finding paths or commits that reference a Git LFS object
 
+If you have a Git LFS SHA-256 identifier, you can find which commits reference it by the `git log --all -p - S` command. It will show you the exact commit and the path to the Git LFS object, together with the information of who added it and the time of the commit. 
 
+If you think that the Git LFS object is on any particular branch, you can use the `git grep` command to find the file path that reference it.
 
 # Including/excluding Git LFS files
 
-
+Sometimes you may want to donwload just a subset of the available Git LFS content for a particular commit. To exclude a pattern or subdirectory, the `git lfs fetch -X` can be used. On the other hand, if you want to include just a particular content or subdirectory, the `git lfs fetch -I` can be used. These commands can be combined to include and at the same time exlude particular patterns.
 
 # Locking Git LFS files
 
+To be able to lock Git LFS files, you need to include `--lockable` flag in the tracking command and specify which Git LFS file you want to lock. For example, to be able to lock the *jpg* files, command `git lfs track "*.jpg" --lockable` will do such a thing. After you commimt and push it, it will be added to *.gitattributes* and registered as lockable. The advantage of the opportunity to lock the file is the possibility to stop other users to edit the file while you are working on it.
 
+When you are ready to make changes to Git LFS file, you can use the `git lfs lock` command to lock it. After you make changes, `git lfs unlock` command will make the file as unlocked. `git lfs locks` command allows you to see all locked files.

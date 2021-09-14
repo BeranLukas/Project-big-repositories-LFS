@@ -33,5 +33,5 @@ Sources:
 
  [Atlassian, Git-LFS](https://www.atlassian.com/git/tutorials/git-lfs)
 
-
+ [Bitbucket Support, Working with Git LFS files](https://confluence.atlassian.com/bitbucketserver/working-with-git-lfs-files-970595880.html)
 
