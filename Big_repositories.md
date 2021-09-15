@@ -51,3 +51,11 @@ This is how it works:
 
 Finally, your working directory will only contain the folders you specified above.
 ## Submodules
+Large projects often consist of small, stand-alone modules. Commits to such huge repositories will be much slower than you expect, since Git will have to scan each directory for changes. If modules have a long local history, cloning can take forever.
+Git submodule support allows the repository to contain a checked-out external project as a subdirectory. Submodules retain their identity; Submodule support preserves the submodule repository location and commits ID so that other developers who have cloned an existing project can easily clone all submodules at checkout. 
+
+The `git submodule add <URL>` command does several things:
+
+- It clones submodules in the current directory and checks out the master branch by default.
+- It adds the path to the submodule clone to the gitmodules file and adds that file to the index, preparing everything to commit.
+- It adds the current commit ID of the submodule to the index, preparing everything for the commit
