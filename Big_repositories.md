@@ -24,6 +24,9 @@ This requires every developer to re-clone the updated repository.
 
 # Handling repositories with huge binary assets
 
+Many software developers are faced with large repositories with huge binary assets.
+Git provides some features that can help with this situation. However, it is worth considering the properties of the project in order to choose the most appropriate method for solving the problem.
+For example, git sparse-checkout is a good solution for large folder trees, and submodules can help manage when updating large files.
 ## Git sparse-checkout
 Since version 1.7, sparse checkout is available in git, with its help you can leave only the files and directories that you need in your working copy of the project.
 
