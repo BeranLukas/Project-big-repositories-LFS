@@ -25,5 +25,29 @@ This requires every developer to re-clone the updated repository.
 # Handling repositories with huge binary assets
 
 ## Git sparse-checkout
+Since version 1.7, sparse checkout is available in git, with its help you can leave only the files and directories that you need in your working copy of the project.
 
+This is how it works:
+
+1. clone the entire repository
+
+        git clone <repo_url> <directory>
+
+2. go to the project directory
+
+        cd <directory>
+
+3. enable the sparse checkout option
+
+        git config core.sparsecheckout true
+
+4. add directories and files that we want to see in the connected project
+
+        echo src/ › .git/info/sparse-checkout
+        
+5. re-reading a working copy of a project
+
+        git read-tree -m -u HEAD
+
+Finally, your working directory will only contain the folders you specified above.
 ## Submodules
