@@ -20,7 +20,7 @@ Then, install the Git command line extension: `git lfs install`
 
 # How to clone a Git LFS repository
 
-If the Git LFS is installed, we can use the well-known command `git clone`. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded. For instance, to upload a very large, we could similar commands as follows:
+If the Git LFS is installed, we can use the well-known command `git clone`. The cloning process goes as usual, but in the end, Git automatically checks out the main branch. If any LFS file is required to complete the process, it will be downloaded. For instance, to upload a very large file, we could use commands as follows:
 
         git clone git@gitlab.example.com:group/repository.git
         git lfs install                       # the Git LFS repository is initialized
