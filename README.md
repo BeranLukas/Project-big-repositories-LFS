@@ -39,3 +39,8 @@ Sources:
 
  [Bitbucket Support, Working with Git LFS files](https://confluence.atlassian.com/bitbucketserver/working-with-git-lfs-files-970595880.html)
 
+ [Atlassian, Git submodules](https://www.atlassian.com/git/tutorials/git-submodule)
+ 
+ [GitHub, Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
+ 
+ 
