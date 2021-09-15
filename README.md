@@ -2,9 +2,13 @@
 
 Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 
-1. Big repositories
-- Handling repositories with a very long history
-- Handling repositories with huge binary assets
+1. [Big repositories](Big_repositories.md)
+- [Handling repositories with a very long history](Big_repositories.md#handling-repositories-with-a-very-long-history)
+     * [Git shallow clone](Big_repositories.md#git-shallow-clone)
+     * [Git filter branch](Big_repositories.md#git-filter-branch)
+- [Handling repositories with huge binary assets](Big_repositories.md#handling-repositories-with-huge-binary-assets)
+     * [Git sparse-checkout](Big_repositories.md#git-sparse-checkout)
+     * [Submodules](Big_repositories.md#submodules)
 
 2. [LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md)
 - [What is GIT LFS](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#what-is-git-lfs)
@@ -35,3 +39,8 @@ Sources:
 
  [Bitbucket Support, Working with Git LFS files](https://confluence.atlassian.com/bitbucketserver/working-with-git-lfs-files-970595880.html)
 
+ [Atlassian, Git submodules](https://www.atlassian.com/git/tutorials/git-submodule)
+ 
+ [GitHub, Get up to speed with partial clone and shallow clone](https://github.blog/2020-12-21-get-up-to-speed-with-partial-clone-and-shallow-clone/)
+ 
+ 
