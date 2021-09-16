@@ -98,7 +98,7 @@ When you are ready to make changes to Git LFS file, you can use the `git lfs loc
 
 # Practical example
 
-As a practical example, we will upload a logo of IES as a .jpg file and treat it like a git LFS file. To try some manipulation, we will lock the file. We assume that the Git LFS extension is already downloaded.
+As a practical example, we will upload a logo of the Faculty of Social Sciences as a .jpg file and treat it like a git LFS file. To try some manipulation, we will lock the file. We assume that the Git LFS extension is already downloaded.
 
 Firstly, we run:
 
