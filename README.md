@@ -1,6 +1,11 @@
 # Big repositories & LFS
 
-Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
+## Authors
+- Ekaterina Tolstoguzova
+- Lukáš Beran
+- Martin Konvičný
+
+## Table of Contents
 
 1. [Big repositories](Big_repositories.md)
 - [Handling repositories with a very long history](Big_repositories.md#handling-repositories-with-a-very-long-history)
@@ -25,9 +30,9 @@ Intro [Nice overview](https://www.atlassian.com/git/tutorials/big-repositories)
 - [Finding paths or commits that reference a Git LFS object](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#finding-paths-or-commits-that-reference-a-git-lfs-object)
 - [Including/excluding Git LFS files](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#includingexcluding-git-lfs-files)
 - [Locking Git LFS files](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#locking-git-lfs-files)
-- Practical example
+- [Practical example](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#practical-example)
 
-Sources:
+## Sources
 
  [Mestering Git, Chapter 9](https://www.packtpub.com/product/mastering-git/9781783553754)
 
