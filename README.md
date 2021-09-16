@@ -32,7 +32,7 @@
 - [Locking Git LFS files](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#locking-git-lfs-files)
 - [Practical example](https://github.com/BeranLukas/Project-big-repositories-LFS/blob/main/GIT%20LFS.md#practical-example)
 
-Sources:
+## Sources
 
  [Mestering Git, Chapter 9](https://www.packtpub.com/product/mastering-git/9781783553754)
 
