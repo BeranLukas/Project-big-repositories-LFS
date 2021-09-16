@@ -1,4 +1,6 @@
 # Handling repositories with a very long history
+Sometimes a project takes too long to grow, and a huge history accumulates during this time.
+Git provides tools for managing history and thus helps save developer's and system's time.
 ## Git shallow clone
 Git shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull. The command `git clone --depth=<N>` is used to reduce the commit history. 
 Usually, the parameter `--depth=1` is used and means that we are only interested in the most recent commits.
