@@ -95,3 +95,33 @@ Sometimes you may want to donwload just a subset of the available Git LFS conten
 To be able to lock Git LFS files, you need to include `--lockable` flag in the tracking command and specify which Git LFS file you want to lock. For example, to be able to lock the *jpg* files, command `git lfs track "*.jpg" --lockable` will do such a thing. After you commimt and push it, it will be added to *.gitattributes* and registered as lockable. The advantage of the opportunity to lock the file is the possibility to stop other users to edit the file while you are working on it.
 
 When you are ready to make changes to Git LFS file, you can use the `git lfs lock` command to lock it. After you make changes, `git lfs unlock` command will make the file as unlocked. `git lfs locks` command allows you to see all locked files.
+
+# Practical example
+
+As a practical example, we will upload a logo of the Faculty of Social Sciences as a .jpg file and treat it like a git LFS file. To try some manipulation, we will lock the file. We assume that the Git LFS extension is already downloaded.
+
+Firstly, we run:
+
+        git lfs install
+
+Secondly, we start tracking .jpg files as Git LFS files.
+
+        git lfs track "*.jpg"
+
+Thirdly, we will add, commit and push the file on GitHub.
+
+        git add .
+        git commit -m "tracking jpg files as Git LFS"
+        git push
+
+In another step, we will lock the file with the following command:
+
+        git lfs track "*.jpg" --lockable
+
+Add, commit and push to the GitHub
+
+        git add .
+        git commit -m "Locking Git LFS file Logo_IES"
+        git push
+
+We have illustrated easy way how to treat big files as Git LFS files and also an example of one of the features mentioned above, namely locking Git LFS files.

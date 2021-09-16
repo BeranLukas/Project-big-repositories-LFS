@@ -1,4 +1,6 @@
 # Handling repositories with a very long history
+Sometimes a project takes too long to grow, and a huge history accumulates during this time.
+Git provides tools for managing history and thus helps save developer's and system's time.
 ## Git shallow clone
 Git shallow clone lets you pull down just the latest commits, not the entire repo history. So if your project has years of history, or history from thousands of commits, you can select a particular depth to pull. The command `git clone --depth=<N>` is used to reduce the commit history. 
 Usually, the parameter `--depth=1` is used and means that we are only interested in the most recent commits.
@@ -24,6 +26,9 @@ This requires every developer to re-clone the updated repository.
 
 # Handling repositories with huge binary assets
 
+Many software developers are faced with large repositories with huge binary assets.
+Git provides some features that can help with this situation. However, it is worth considering the properties of the project in order to choose the most appropriate method for solving the problem.
+For example, git sparse-checkout is a good solution for large folder trees, and submodules can help manage when updating large files.
 ## Git sparse-checkout
 Since version 1.7, sparse checkout is available in git, with its help you can leave only the files and directories that you need in your working copy of the project.
 
