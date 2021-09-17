@@ -88,7 +88,7 @@ If you think that the Git LFS object is on any particular branch, you can use th
 
 # Including/excluding Git LFS files
 
-Sometimes you may want to donwload just a subset of the available Git LFS content for a particular commit. To exclude a pattern or subdirectory, the `git lfs fetch -X` can be used. On the other hand, if you want to include just a particular content or subdirectory, the `git lfs fetch -I` can be used. These commands can be combined to include and at the same time exlude particular patterns.
+Sometimes you may want to download just a subset of the available Git LFS content for a particular commit. To exclude a pattern or subdirectory, the `git lfs fetch -X` can be used. On the other hand, if you want to include just a particular content or subdirectory, the `git lfs fetch -I` can be used. These commands can be combined to include and at the same time exlude particular patterns.
 
 # Locking Git LFS files
 
