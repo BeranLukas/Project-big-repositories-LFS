@@ -36,7 +36,7 @@ The same way as we used the cloning, we can also use the pull from Git LFS repos
 
 If you want to start tracking a specific binary file (or you want to add another), you need to use the `git lfs track` command with the specification of the type of the files that you want to track. For example, `git lfs track "*.jpg"` will associate all of the jpg files. Be sure to include the `" "` in your code, as without the quotation marks it will create individual entry for each of the *.jpg* file in your directory. The information about associated files will be added to a `.gitattributes` file and its behaviour is the same as is for `.gitignore`, with the exepction of negative patterns, which Git LFS does not support. All of the patterns currently tracked can be displayed by the `git lfs track` command without any arguments.
 
-If you want to associate just some of the specific files in the directory, for example, only *.jpg* files in the *project* directory, you can use the following command: `git lfs track "project/*.xml"`
+If you want to associate just some of the specific files in the directory, for example, only *.jpg* files in the *project* directory, you can use the following command: `git lfs track "project/*.jpg"`
 
 To stop tracking a specific pattern with Git LFS, use the `git lfs untrack` command. For example, to stop tracking the *.jpg* files, use `git lfs untrack "*.jpg"`.
 
